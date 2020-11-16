@@ -1,0 +1,22 @@
+
+To run type---- nodemon
+
+
+
+open the postman app------------
+
+
+1) for GET request type----------http://localhost:5000/api and press send button..
+
+
+
+2)POST request-------------------------------------------------------
+
+--for getting token type-- http://localhost:5000/api/login and press send button..
+
+--for validating the json web token type-- http://localhost:5000/api/posts
+   and set a header of authorization and pass the value of autohrization as--
+   Bearer <token value copied from previouus post request from api/login section>--
+   And then press send button..
+ 
+----------------------------------------------------------------------
